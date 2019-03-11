@@ -1,0 +1,10 @@
+*.swp
+.DS_Store
+.config
+tmp
+bin/configlet
+bin/configlet.exe
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
