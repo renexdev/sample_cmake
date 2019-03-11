@@ -3,6 +3,8 @@
 .vscode
 .config
 tmp
+bin-manual
+*.o
 bin/configlet
 bin/configlet.exe
 CMakeCache.txt
