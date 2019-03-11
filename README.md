@@ -71,7 +71,10 @@ Then g++ compiler can be manually invoked to compile the project and to generate
 g++ ../src/game_engine.cpp ../src/game_interface.cpp ../src/main.cpp -I ../src -I ../include -I ../libs/Logger/include -I ../libs/Randomize/include -L ../libs/Logger -l logger -L ../libs/Randomize -l randomize
 ```
 Here **-I** flag is used to tell the compiler which directories contain the header files.
-**-L** flag is used to tell the compiler which directories contain the static library files (.a). **-l** flag is used to specify the name of the complier, which internally is prepended or postpended by the compiler. Hence here the compiler is looking for *liblogger.a* or *loggerlib.a*.
+
+**-L flag** are used to tell the compiler which directories contain the static library files (.a). 
+
+**-l** flag is used to specify the lib's name to the complier (built with ar command). The compiler will look for *liblogger.a* or *loggerlib.a* & *librandomize.a* or *randomizelib.a* .
 
 You will find an executale a.out in $REPO_DIR/bin-manual
 
