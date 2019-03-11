@@ -72,11 +72,11 @@ g++ ../src/game_engine.cpp ../src/game_interface.cpp ../src/main.cpp -I ../src -
 ```
 Here **-I** flag is used to tell the compiler which directories contain the header files.
 
-**-L flag** are used to tell the compiler which directories contain the static library files (.a). 
+**-L** flag are used to tell the compiler which directories contain the static library files (.a). 
 
 **-l** flag is used to specify the lib's name to the complier (built with ar command). The compiler will look for *liblogger.a* or *loggerlib.a* & *librandomize.a* or *randomizelib.a* .
 
-You will find an executale a.out in $REPO_DIR/bin-manual
+You will find the executale a.out in $REPO_DIR/bin-manual
 
 # Building with cmake (https://cmake.org/)
 
